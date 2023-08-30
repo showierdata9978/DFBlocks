@@ -5,7 +5,7 @@ on:
 
 jobs: 
   publish:
-    runs-on: umbuntu-latest
+    runs-on: ubuntu-latest
     steps:
      - name: Publish to pypi
        uses: coveooss/pypi-publish-with-poetry@v1.0.0
