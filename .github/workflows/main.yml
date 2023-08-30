@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Publish to pypi
-       uses: coveooss/pypi-publish-with-poetry@v1.0.0
+       uses: coveooss/pypi-publish-with-poetry@1.0.0
        with:
          project-name: DFBlock
          pypi-token: ${{ secrets.PYPI_TOKEN }}
