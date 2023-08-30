@@ -306,3 +306,5 @@ dist
 
 # Replit Nix config file
 replit.nix
+
+.breakpoints
