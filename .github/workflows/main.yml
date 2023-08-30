@@ -1,0 +1,14 @@
+on:
+  push:
+     branches:
+        - main
+
+jobs: 
+  publish:
+    runs-on: umbuntu-latest
+    steps:
+     - name: Publish to pypi
+       uses: coveooss/pypi-publish-with-poetry@v1.0.0
+       with:
+         project-name: my-project-name
+         pypi-token: ${{ secrets.PYPI_TOKEN }}
